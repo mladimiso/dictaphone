@@ -20,8 +20,10 @@ void debug_UART_write_byte(unsigned long ulUARTData,
 						unsigned char ucNumBytes
 						);
 
+void debug_UART_write_string(char *pcData);
+
 unsigned char debug_UART_read_byte(unsigned long *ulUARTData);
 
-void debug_UART_write_string(char *pcData);
+void check_f_result(unsigned res, const char *text);
 
 #endif /* __SRC_UART_DEBUG_H__ */
