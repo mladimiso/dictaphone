@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="I2S_IP_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="I2S_IP_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="94994150000fs"></ZoomStartTime>
+      <ZoomEndTime time="129194150001fs"></ZoomEndTime>
+      <Cursor1Time time="123494150000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/I2S_IP_TB/iCLK" type="logic">
+      <obj_property name="ElementShortName">iCLK</obj_property>
+      <obj_property name="ObjectShortName">iCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/FIFO_RX/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/FIFO_RX/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/iRECDAT" type="logic">
+      <obj_property name="ElementShortName">iRECDAT</obj_property>
+      <obj_property name="ObjectShortName">iRECDAT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/sREC_SAMPLE_READY" type="logic">
+      <obj_property name="ElementShortName">sREC_SAMPLE_READY</obj_property>
+      <obj_property name="ObjectShortName">sREC_SAMPLE_READY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/sREC_SAMPLE_L_R" type="array">
+      <obj_property name="ElementShortName">sREC_SAMPLE_L_R[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sREC_SAMPLE_L_R[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/oBCLK" type="logic">
+      <obj_property name="ElementShortName">oBCLK</obj_property>
+      <obj_property name="ObjectShortName">oBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/oRECLRC" type="logic">
+      <obj_property name="ElementShortName">oRECLRC</obj_property>
+      <obj_property name="ObjectShortName">oRECLRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/sBCLK_TICK" type="logic">
+      <obj_property name="ElementShortName">sBCLK_TICK</obj_property>
+      <obj_property name="ObjectShortName">sBCLK_TICK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/iAXIS_ACLK" type="logic">
+      <obj_property name="ElementShortName">iAXIS_ACLK</obj_property>
+      <obj_property name="ObjectShortName">iAXIS_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/iAXIS_ARSTEN" type="logic">
+      <obj_property name="ElementShortName">iAXIS_ARSTEN</obj_property>
+      <obj_property name="ObjectShortName">iAXIS_ARSTEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/sRECDAT_1" type="array">
+      <obj_property name="ElementShortName">sRECDAT_1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sRECDAT_1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/sRECDAT_2" type="array">
+      <obj_property name="ElementShortName">sRECDAT_2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sRECDAT_2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/sRECDAT_3" type="array">
+      <obj_property name="ElementShortName">sRECDAT_3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sRECDAT_3[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_tdata_1" type="array">
+      <obj_property name="ElementShortName">s_tdata_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_tdata_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_tdata_2" type="array">
+      <obj_property name="ElementShortName">s_tdata_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_tdata_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_tdata_3" type="array">
+      <obj_property name="ElementShortName">s_tdata_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_tdata_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/RX_TX/sPB_SAMPLE_LC" type="array">
+      <obj_property name="ElementShortName">sPB_SAMPLE_LC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sPB_SAMPLE_LC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/RX_TX/sPB_SAMPLE_RC" type="array">
+      <obj_property name="ElementShortName">sPB_SAMPLE_RC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sPB_SAMPLE_RC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/iCLK" type="logic">
+      <obj_property name="ElementShortName">iCLK</obj_property>
+      <obj_property name="ObjectShortName">iCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/uut/sPB_READY" type="logic">
+      <obj_property name="ElementShortName">sPB_READY</obj_property>
+      <obj_property name="ObjectShortName">sPB_READY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/oBCLK" type="logic">
+      <obj_property name="ElementShortName">oBCLK</obj_property>
+      <obj_property name="ObjectShortName">oBCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/oPBLRC" type="logic">
+      <obj_property name="ElementShortName">oPBLRC</obj_property>
+      <obj_property name="ObjectShortName">oPBLRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/oPBDAT" type="logic">
+      <obj_property name="ElementShortName">oPBDAT</obj_property>
+      <obj_property name="ObjectShortName">oPBDAT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2S_IP_TB/onMUTE" type="logic">
+      <obj_property name="ElementShortName">onMUTE</obj_property>
+      <obj_property name="ObjectShortName">onMUTE</obj_property>
+   </wvobject>
+</wave_config>
